@@ -1,6 +1,6 @@
 import inspect
 
-from celery.contrib.methods import task_method
+from .celery_contrib_methods import task_method
 
 from .pickle import DJANGO_CEREAL_PICKLE
 
